@@ -7,40 +7,6 @@
     font-size: 62.5%;
   } /* todo esto meterlo en todos los archivos para eliminar problemas con contenedores*/
 
-/* SECCION PRINCIPAL SLIDER*/
-.main-container{
-    background-image: url(./img/Principal/fondoslidergrande.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-  }
-  .style-card{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .title-card{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 3rem;
-  }
-  .context-card{
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .color-p{
-    font-size: 1.5rem;
-    text-align: center;
-    color: white;
-  }
-  .card{
-    border: none;
-  }
-/* FIN SECCION PRINCIPAL SLIDER*/
-
 /* ESTILOS BARRA DE NAVEGACION */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -211,3 +177,64 @@ i {
 	}
 }
 /* FIN DE ESTILOS BARRA DE NAVEGACION */
+
+/* SECCION PRINCIPAL SLIDER*/
+.main-container{
+    background-image: url(./img/Principal/fondoslidergrande.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .style-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title-card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+  }
+  .context-card{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .color-p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+  }
+  .card{
+    border: none;
+  }
+/* FIN SECCION PRINCIPAL SLIDER*/
+
+/* SECCION DE COMO LO HACEMOS */ 
+.container {
+    max-width: 960px;
+  }
+.container-how-do{
+    height: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .title-how-do{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .p-how-to-do{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+  }
+  .font-how-do-figure{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+  }
+/* FIN SECCION DE COMO LO HACEMOS */
