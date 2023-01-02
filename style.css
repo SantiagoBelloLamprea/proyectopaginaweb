@@ -238,3 +238,68 @@ i {
     font-size: 1.2rem;
   }
 /* FIN SECCION DE COMO LO HACEMOS */
+
+/* ESTILOS PARA SECCION PLANES Y PRECIOS*/
+.title-box-plans{
+    font-size: 4vw;
+  }
+  .price-box-plans h3{
+    font-size: 4vw;
+  }
+  .price-box-plans h4{
+    font-size: 2vw;
+    text-decoration: line-through;
+    color: gray;
+  }
+  .see-more{
+    text-decoration: underline;
+    color: blue;
+  }
+  .hide{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+  .see-more{
+    font-size: 4vw;
+  }
+  /* FIN DE ESTILOS PARA SECCION DE PLANES Y PRECIOS*/
+  /* ESTILOS ETIQUETA DE PROMOCION */
+/* con fill cambiamos el color de la tipografía y los fondos de cada elemento 
+Con stroke la línea
+*/
+
+/* css triángulo */
+.texto-triangulo {
+    fill: white;
+    font-size:20px;
+    font-family:arial;
+    letter-spacing:-1px;
+  
+  }
+  .texto-descuento {
+    fill: white;
+    font-size:14px;
+    font-family:arial;
+  
+  }
+  /* fondo */
+  .triangulo {
+    fill:white;
+    opacity:0.9;
+  }
+  /* css oferta */
+  /* triángulo */
+  .oferta-verde {
+    fill:purple;
+    opacity:0.9;
+  
+  }
+  /* texto */
+  .texto-oferta-verde {
+    fill: white;
+    font-size:14px;
+    font-family:arial;
+  }
+  /* FIN ESTILOS ETIQUETA DE PROMOCION*/
