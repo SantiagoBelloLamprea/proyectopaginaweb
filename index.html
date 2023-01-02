@@ -55,67 +55,71 @@
     <!-- FIN BARRA DE NAVEGACION -->
     <main>
         <!-- CONTAINER SLAIDER Y TEXTO-->
-        <div class="main-container mb-5"> <!-- Contiene el fondo de pantalla -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active ">
-                        <!-- elemento Card -->
-                        <div class="card mb-3 bg-transparent">
-                            <div class="row g-0">
-                                <div class="col-xl-6">
-                                    <img src="./img/mockuppc.png" class="img-fluid rounded-start" alt="mockuppc"
-                                        width="100%">
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="card-body style-card">
-                                        <!-- style-card clase creada para centrar objetos en div -->
-                                        <h1 class="card-title text-light text-center title-card">Diseñamos tu tienda
-                                            virtual</h1>
-                                        <!-- title-card clase creada para dar estilo -->
-                                        <p class="card-text text-light context-card">
-                                            <!-- context-card clase creada para dar estilo -->
-                                            ¡Vende por internet y alcanza nuevos clientes a través de tu propia
-                                            tienda online diseñada para vender!
-                                        </p>
-                                        <p class="color-p">Escribenos para poderte ofrecer la mejor propuesta</p>
-                                        <a class="btn btn-warning mb-4 w-100" href="#" role="button">Escribenos</a>
-                                        <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        <section>
+            <div class="main-container mb-5"> <!-- Contiene el fondo de pantalla -->
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <!-- elemento Card -->
+                            <div class="card mb-3 bg-transparent">
+                                <div class="row g-0">
+                                    <div class="col-xl-6">
+                                        <img src="./img/Principal/mockuppc.png" class="img-fluid rounded-start" alt="mockuppc"
+                                            width="100%">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="card-body style-card">
+                                            <!-- style-card clase creada para centrar objetos en div -->
+                                            <h1 class="card-title text-light text-center title-card">Diseñamos tu tienda
+                                                virtual</h1>
+                                            <!-- title-card clase creada para dar estilo -->
+                                            <p class="card-text text-light context-card">
+                                                <!-- context-card clase creada para dar estilo -->
+                                                ¡Vende por internet y alcanza nuevos clientes a través de tu propia
+                                                tienda online diseñada para vender!
+                                            </p>
+                                            <p class="color-p">Escribenos para poderte ofrecer la mejor propuesta</p>
+                                            <a class="btn btn-warning mb-4 w-100" href="#" role="button">Escribenos</a>
+                                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- Fin elemento Card -->
                         </div>
-                        <!-- Fin elemento Card -->
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
-        <!-- FIN CONTAINER SLAIDER Y TEXTO-->
+            <!-- FIN CONTAINER SLAIDER Y TEXTO-->
+        </section>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
     <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+    <script src="./BarraNav.js"></script>
 </body>
 
-<script src="./BarraNav.js"></script>
+
 
 </html>
